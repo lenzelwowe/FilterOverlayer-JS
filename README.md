@@ -9,7 +9,7 @@ Include in HTML:
 <script src="pathto/overlay.js"></script>
 ```
 
-Create a <canvas> tag with any id and specified width and height.
+Create a \<canvas> tag with any id and specified width and height.
 
 Use the following in a script tag.
 ```
