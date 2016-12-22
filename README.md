@@ -1,4 +1,5 @@
 # FilterOverlayer-JS
+A javascript filter overlayer to uploaded images using Canvas. 
 
 ## Code Use
 Create a <canvas> tag with any id and specified width and height.
