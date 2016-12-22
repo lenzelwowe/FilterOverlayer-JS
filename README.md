@@ -1,5 +1,5 @@
 # FilterOverlayer-JS
-A javascript filter overlayer to uploaded images using Canvas. 
+A javascript filter overlayer to uploaded images(draggable) using Canvas. 
 
 ## Code Use
 Include in HTML: 
