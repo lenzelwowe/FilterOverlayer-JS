@@ -2,6 +2,13 @@
 A javascript filter overlayer to uploaded images using Canvas. 
 
 ## Code Use
+Include in HTML: 
+```
+<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+<script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+<script src="pathto/overlay.js"></script>
+```
+
 Create a <canvas> tag with any id and specified width and height.
 
 Use the following in a script tag.
