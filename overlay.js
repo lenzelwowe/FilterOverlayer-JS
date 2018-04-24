@@ -1,9 +1,5 @@
-    
-
-
 
 var OverlayJS = function(canvasName, imageSrc, filterSrc, filterScale, filterAlpha){
-
     var stage = new createjs.Stage(canvasName);
     window.currentFilter = filterSrc
     window.currentImage = imageSrc
@@ -18,16 +14,11 @@ var OverlayJS = function(canvasName, imageSrc, filterSrc, filterScale, filterAlp
             loadWhite.y = 0 
             stage.addChild(loadWhite)
             stage.update()
-        }*/
-
-
+    }*/
     function init(a,b){
         initUserImg(b)
         handleFilterLoad(a)
- 
-
     }
-
     //initializes a new Image onto stage
     function initUserImg(imgsrc) {
     	userPic = stage.getChildByName("userPic")
@@ -35,8 +26,6 @@ var OverlayJS = function(canvasName, imageSrc, filterSrc, filterScale, filterAlp
         var image = new Image();
         image.src = imgsrc;
         image.onload = handleDraggable;
-        console.log(imgsrc)
-        console.log("test")
     }
 
     //loads user image as a draggable/touch friendly
